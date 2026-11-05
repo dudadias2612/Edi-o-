@@ -8,7 +8,7 @@ entrada/original_nextags_v1.mov   gravação recebida (1080×1920 HEVC 30 fps, 1
 config/
   caption_groups.json             blocos de legenda (texto revisado + tempos por palavra)
   zoom.json                       zooms estilo "corte" e movimentos lentos (só após 29,4 s)
-  placeholders.json               os 4 trechos ilustrativos (5 telas) + onde entra a gravação real
+  capturas.json                   sincronia (speed ramp) e zoom (lupa) das gravações reais; placeholders.json = reserva ilustrativa
 transcricao/
   whisper_raw.json                saída bruta do Whisper large-v3 (palavra a palavra)
   texto_revisado.txt              texto final revisado (fala real = fonte de verdade)
@@ -21,9 +21,10 @@ scripts/
   03_render_overlay.mjs           Chromium (Playwright) → camadas "atrás" e "frente"
   04_composite.py                 composição final: zoom, mockups ATRÁS da pessoa, legendas/títulos à frente, H.264
   05_audio.py / 06_master.sh      voz tratada + SFX sintetizados + trilha original + ducking + master −14 LUFS
-  07_slots.py                     ajusta as gravações reais dos placeholders
+  07_capturas.py                  celular + lupa a partir das gravações reais (A e B); 07_slots.py = reserva
   08_qc.py / 09_asr_check.py      controle de qualidade e transcrição do áudio final
-substituir/                       coloque aqui as gravações reais da Nextags (ver PLACEHOLDERS_SUBSTITUICAO.md)
+  10_compare.py / 11_splice.py    prova quadro a quadro de que nada mais mudou; emenda de pacotes H.264 sem recodificar
+entrada/captura_A_fluxo.mov, captura_B_teste.mov   gravações de tela reais (ver CAPTURAS_REAIS.md; privadas, fora do git)
 saida/                            MP4 + legendas
 REVISAO_VISUAL/                   pranchas e quadros-chave, qc_resultado.json
 ```

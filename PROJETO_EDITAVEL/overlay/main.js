@@ -8,7 +8,9 @@ function applyItem(it,st){
   e.style.opacity=r2(st.o*1000)/1000;
   e.style.transform=`translate(${r2(st.x||0)}px,${r2(st.y||0)}px) rotate(${r2(st.r||0)}deg) scale(${(st.s==null?1:Math.round(st.s*1e4)/1e4)})`;
   e.style.filter=st.filter||'';
+  if(st.css){for(const k in st.css)e.style[k]=st.css[k]}
   let sig=`${it.id}:${r2(st.o)},${r2(st.x||0)},${r2(st.y||0)},${Math.round((st.s==null?1:st.s)*1e4)},${r2(st.r||0)},${st.filter||''}`;
+  if(st.css){for(const k in st.css)sig+=`|${k}=${st.css[k]}`}
   if(st.vars){for(const k in st.vars){const v=typeof st.vars[k]==='number'?Math.round(st.vars[k]*1000)/1000:st.vars[k];e.style.setProperty(k,v);sig+=`|${k}=${v}`}}
   if(st.txt){for(const sel in st.txt){const n=(it.cache[sel]||(it.cache[sel]=e.querySelector(sel)));if(n&&n.textContent!==st.txt[sel])n.textContent=st.txt[sel];sig+=`|${sel}=${st.txt[sel]}`}}
   if(st.html!=null){if(it.html!==st.html){e.innerHTML=st.html;it.html=st.html;it.cache={};it.kidsEls=null}sig+=`|h${hashStr(st.html)}`}

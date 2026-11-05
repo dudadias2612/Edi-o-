@@ -96,7 +96,7 @@ const approach=(a,b)=>t=>.95+.05*E.out3(P(t,a,b))+.02*P(t,a,b);
     return{o:Math.min(1,P(t,50.62,50.9))*fadeOut(t,65.8,.2),kidsSel:'.d',kids:[1,2,3,4,5].map(i=>({o:i<=cur?1:.38,s:i===cur?1.45:1,c:i<=cur?'#008FFE':'#fff'}))}});
 })();
 /* ---------- PLACEHOLDER 01 · conexão do Instagram ---------- */
-(function(){
+(function(){ if(window.SLOTS&&window.SLOTS.A) return;
   const [a,b]=SL('P1');
   const tag=(t1,t2,t3)=>`<div class="tag" style="top:${t1}px;text-align:center"><div style="font-size:31px;color:#0e0e13;line-height:1.15">${t2}</div><div style="font-size:31px;color:#008FFE;line-height:1.15">${t3}</div><div style="font-weight:600;font-size:25px;color:#8a8a93;margin-top:12px;text-transform:none;letter-spacing:0">Pendente de integração</div></div>`;
   const inner=`<div style="position:absolute;inset:0;background:linear-gradient(170deg,#f3f9ff 0%,#fff 55%)"></div>
@@ -111,7 +111,7 @@ const approach=(a,b)=>t=>.95+.05*E.out3(P(t,a,b))+.02*P(t,a,b);
   reg(ph,a,b,t=>{if(t>b+.3)return null;const i=popIn(t,a,.4);const s=approach(a,a+.5)(t);const f=fadeOut(t,b,.2);return{o:i.o*f,s:s*i.s,y:(1-E.out4(P(t,a,a+.5)))*60,media:slotFrame('P1',t)}});
 })();
 /* ---------- PLACEHOLDER 02 · criação da automação ---------- */
-(function(){
+(function(){ if(window.SLOTS&&window.SLOTS.A) return;
   const [a,b]=SL('P2');
   const row=(i,icn,label,extra='')=>`<div class="r2" style="position:absolute;left:34px;right:34px;top:${82+i*118}px;height:100px;border-radius:26px;background:#f4f7fb;border:3px solid #e6ebf3;display:flex;align-items:center;gap:22px;padding:0 28px;font-family:Montserrat;font-weight:800;font-size:37px;color:#0e0e13">
      <span class="ico" style="width:66px;height:66px;border-radius:20px;background:#e6f3ff;padding:15px;color:#008FFE">${ico(icn,36,'#008FFE')}</span><span style="flex:1">${label}</span>${extra}</div>`;

@@ -1,5 +1,5 @@
 /* ---------- PLACEHOLDER 03 · palavra-chave, mensagem, link, ativação ---------- */
-(function(){
+(function(){ if(window.SLOTS&&window.SLOTS.A) return;
   const [a,b]=SL('P3');
   const rows=[['page','PUBLICAÇÃO','<span class="sk" style="width:120px;height:62px;border-radius:14px;background:linear-gradient(135deg,#ffd6a5,#ff8da1)"></span>'],
     ['key','PALAVRA-CHAVE','<span class="pill" style="background:#fff;border:3px solid #008FFE;color:#008FFE;font-size:26px;padding:10px 22px">AUTOMATIZAR</span>'],
@@ -21,7 +21,7 @@
   });
 })();
 /* ---------- PLACEHOLDER 04 · teste da automação (dois celulares + seta) ---------- */
-(function(){
+(function(){ if(window.SLOTS&&window.SLOTS.B) return;
   const [a,b]=SL('P4');
   const LX=45,RX=615,PW=420,PH=860,PY=312;
   const banner=el(`<span class="pill" style="background:rgba(255,255,255,.97);border:3px solid #008FFE;color:#0e0e13;font-size:23px;padding:13px 26px;letter-spacing:.02em;box-shadow:0 12px 34px rgba(0,0,0,.28)"><i style="display:inline-flex;width:34px;height:34px;border-radius:50%;background:#008FFE;color:#fff;align-items:center;justify-content:center;font-style:normal;font-family:Inter;font-weight:900;font-size:22px">i</i>DEMONSTRAÇÃO ILUSTRATIVA — AGUARDANDO TESTE REAL</span>`,'','left:0;right:0;top:214px;text-align:center');

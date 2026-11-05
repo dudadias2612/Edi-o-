@@ -11,7 +11,7 @@
   "color_primaries": "bt709",
   "color_range": "tv",
   "nb_frames": "4569",
-  "bit_rate": "5768015"
+  "bit_rate": "5982657"
  },
  "audio": {
   "codec_name": "aac",
@@ -21,7 +21,7 @@
  },
  "formato": {
   "duracao_s": 152.3,
-  "tamanho_MB": 114.9,
+  "tamanho_MB": 119.0,
   "faststart": true
  },
  "erros_decodificacao": "nenhum",

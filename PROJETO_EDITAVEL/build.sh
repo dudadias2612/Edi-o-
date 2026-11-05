@@ -8,7 +8,7 @@ case $step in
  all|final|slots)   python3 scripts/02_transcricao.py; python3 - <<'PY'
 import json; G=json.load(open("config/caption_groups.json")); open("overlay/data_captions.js","w").write("window.CAP="+json.dumps(G,ensure_ascii=False)+";")
 PY
-              python3 scripts/07_slots.py ;;&
+              python3 scripts/07_capturas.py ;;&
  all|overlay|final) rm -rf work/overlay; node scripts/03_render_overlay.mjs --total 152.4 --out work/overlay --workers 3 $([ "$step" = final ] && echo --no-marker) ;;&
  all|final|audio)   python3 scripts/05_audio.py; ./scripts/06_master.sh ;;&
  all|final|video)   need_matte; python3 scripts/04_composite.py --out work/video_silent.mp4 --preset slow --crf 17 --total 152.3 ;;&

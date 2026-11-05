@@ -1,18 +1,19 @@
 # RELATÓRIO FINAL · Nextags × Duda Dias
 
-**Status: PRÉVIA PARA APROVAÇÃO CRIATIVA, completa, renderizada e verificada. NÃO é a versão final de veiculação.**
-Os trechos em que a plataforma aparece (4 placeholders, 5 telas) são ilustrações identificadas como tal. Nenhum resultado da Nextags foi
-simulado como real. A versão final só existe depois de trocar esses trechos pelas gravações verdadeiras (ver `PLACEHOLDERS_SUBSTITUICAO.md`).
+**Status: PRÉVIA PARA APROVAÇÃO CRIATIVA, completa, renderizada e verificada, agora com as suas duas gravações de tela reais da Nextags no lugar dos placeholders.**
+O marcador "PRÉVIA PARA APROVAÇÃO CRIATIVA" (1,5 s no canto) foi mantido, porque você pediu para não mudar mais nada. Detalhes das gravações: `CAPTURAS_REAIS.md`.
+
+**Atualização (gravações reais):** só mudou o trecho em que a plataforma aparece (50,5–66,1 s e 68,0–81,5 s). Prova na §9.
 
 ## 1. Entregáveis (onde estão)
 
 | Item | Arquivo |
 |---|---|
-| MP4 para aprovação da Keren | `PROJETO_EDITAVEL/saida/NEXTAGS_DUDA_PREVIA_APROVACAO.mp4` (114,9 MB; fora do git por ultrapassar o limite do GitHub) |
+| MP4 para aprovação da Keren | `PROJETO_EDITAVEL/saida/NEXTAGS_DUDA_PREVIA_APROVACAO.mp4` (119 MB, fora do git) e a versão leve `..._LEVE.mp4` (≈57 MB, mesma edição, no git) |
 | Projeto editável e reproduzível | `PROJETO_EDITAVEL/` (`./build.sh all`; ver `README.md`) |
 | Legendas sincronizadas | `PROJETO_EDITAVEL/saida/LEGENDAS_NEXTAGS.srt` e `LEGENDAS_ESTILIZADAS.ass` (150 blocos) |
 | Revisão visual | `PROJETO_EDITAVEL/REVISAO_VISUAL/` (4 pranchas a cada 5 s, 14 quadros-chave, `qc_resultado.json`, `asr_audio_final.json`) |
-| Placeholders, tempos e como trocar | `PROJETO_EDITAVEL/PLACEHOLDERS_SUBSTITUICAO.md` e `config/placeholders.json` |
+| Gravações reais: layout, sincronia e como ajustar | `PROJETO_EDITAVEL/CAPTURAS_REAIS.md` e `config/capturas.json` |
 
 Não gerei um arquivo chamado `VIDEO_FINAL_NEXTAGS_DUDA_1080P.mp4` de propósito: pelo adendo, a prévia não pode ser tratada como versão final.
 O mesmo pipeline o produz depois (`./build.sh final`, que também tira o marcador "PRÉVIA").
@@ -74,25 +75,23 @@ O mesmo pipeline o produz depois (`./build.sh final`, que também tira o marcado
 | 9 | Clipping / true peak | 0 amostras ≥ 0,999; true peak −1,6 dBFS |
 | 10 | Imagem não distorcida / cor | proporção 9:16 nativa; conversão bt709 verificada (diferença 0,0 num trecho sem overlay) |
 | 11 | Coerência estética após 30 s | conferida lado a lado nas pranchas; ajustes feitos após a 1ª renderização (ver §7) |
-| 12 | Nenhuma captura ilustrativa passada por real | banners e rótulos em todos os placeholders; sem confirmação de envio nem ativação |
+| 12 | Nenhuma captura ilustrativa passada por real | os trechos da plataforma agora são gravações reais; o que segue ilustrativo (cena E, CTA) está identificado ou é conceitual |
 | 13 | CTA claro | "COMENTE / AUTOMATIZAR / RECEBA O LINK NO DIRECT", fora dos botões do Instagram |
 | 14 | Arquivo abre e reproduz | decodificado integralmente com ffmpeg; faststart ativo |
 
-## 6. Ilustrado × realmente demonstrado
+## 6. Real × ilustrado
 
 | Trecho | Tempo | Situação |
 |---|---|---|
 | Fluxo COMENTÁRIO → PALAVRA-CHAVE → MENSAGEM (cena E) | 37,5–42,6 s | **ilustração** de conceito |
 | Wordmark "Nextags" (cena F) | 48,5–50,2 s | **texto tipográfico**, não é o logo oficial (nenhum arquivo de logo foi enviado) |
-| P1 conexão do Instagram | 50,50–52,60 s | **placeholder**: "CAPTURA REAL: CONEXÃO DO INSTAGRAM · Pendente de integração" |
-| P2 criação da automação | 52,60–58,50 s | **placeholder**: "INSERIR GRAVAÇÃO REAL DA NEXTAGS" |
-| P3 palavra-chave/mensagem/link/ativação | 58,50–65,80 s | **placeholder**: 5 etapas; a ativação aparece desligada, sem confirmação |
-| P4 teste (dois celulares) | 68,00–81,57 s | **placeholder**: "DEMONSTRAÇÃO ILUSTRATIVA — AGUARDANDO TESTE REAL" |
+| **Tutorial (gravação A)**: conexão, Ferramentas, automação, post, palavra-chave, mensagem, link, ativação | 50,5–66,1 s | **gravação real** da Nextags (acelerada e com pausas; ver `CAPTURAS_REAIS.md`) |
+| **Teste (gravação B)**: comentário, notificação, Direct recebido, botão do link, site | 68,0–81,5 s | **gravação real** (com pausas nos estados estáticos) |
 | CTA: comentário → Direct | 127,9–135,6 s | **ilustração** rotulada "ilustração" |
-| Avatares dos comentários | vários | ilustrações vetoriais genéricas (sem fotos de terceiros) |
+| Avatares dos comentários ilustrados | vários | vetores genéricos (sem fotos de terceiros) |
 
-**Nada nesta prévia é demonstração real da Nextags.** As falas "Entrei por outra conta…" e "A Nextags respondeu…" só serão verdadeiras quando
-a integração for concluída e o P4 for gravado.
+**Lacuna entre fala e imagem:** a fala "A Nextags respondeu o meu comentário" (73,5–75,8 s) não tem imagem correspondente, pois a gravação B não
+mostra uma resposta pública abaixo do comentário. A mensagem no Direct está comprovada; a resposta no comentário não aparece em nenhuma gravação.
 
 ## 7. Revisão e correções após a 1ª renderização
 
@@ -119,3 +118,15 @@ a integração for concluída e o P4 for gravado.
 7. **Direitos:** a trilha e os SFX são originais (sintetizados); não há música nem imagem de terceiros. Fonte Montserrat sob SIL OFL.
 8. **Tamanho:** 114,9 MB, acima do alvo habitual de Reels; o Instagram recomprime. Se precisar de um arquivo menor, subir o CRF para 20–22
    (`build.sh`, `--crf`).
+
+## 9. Atualização: encaixe das gravações reais (prova de que nada mais mudou)
+
+- Gravações recebidas: A (19,25 s, 882×1920, 60 fps) e B (4,8 s, 882×1920, 30 fps). Layout: celular atrás de você + lupa com o zoom do detalhe de cada passo, sincronizada.
+  Sincronia amarrada à fala e aos efeitos sonoros já existentes (tabela em `CAPTURAS_REAIS.md`).
+- **Áudio:** idêntico à versão anterior (mesmo hash do áudio decodificado, 29.245.440 bytes).
+- **Vídeo:** os **3.319 quadros fora de 42,63–84,3 s são bit a bit idênticos** à versão anterior. O vídeo anterior foi reaproveitado por emenda de pacotes H.264
+  (sem recodificar) e só o trecho 42,63–84,3 s foi recodificado (nas margens 42,63–50,3 s, 66,6–67,9 s e 82–84,3 s o conteúdo é o mesmo, PSNR ≥ 45,8 dB).
+  Dentro das janelas das gravações o conteúdo mudou, como pretendido. Arquivo: `REVISAO_VISUAL/comparacao_com_versao_anterior.json`.
+- Correções feitas ao revisar: imagem dupla nas trocas de tela (agora só há mistura de quadros em câmera lenta), flashes brancos de carregamento encurtados.
+- Pontos de conteúdo para você decidir (também em `CAPTURAS_REAIS.md`): link com código de indicação visível ~0,5 s (ampliado na lupa),
+  nomes de terceiros na tela de perfil do B (1,6 s) e relance de outra mensagem automática sua ao tocar no botão.

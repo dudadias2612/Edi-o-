@@ -1,0 +1,19 @@
+{
+ "quadros_comparados": 4569,
+ "quadros_com_qualquer_diferenca": 1250,
+ "trechos_alterados_s": [
+  [
+   42.63,
+   84.27
+  ]
+ ],
+ "audio_antigo": [
+  "981c17dee346f511",
+  29245440
+ ],
+ "audio_novo": [
+  "981c17dee346f511",
+  29245440
+ ],
+ "audio_identico": true
+}
