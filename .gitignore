@@ -8,3 +8,13 @@ out/
 renders/
 *.mp4
 *.mov
+
+# Projeto Nextags: mídia pesada/privada fica fora do git
+PROJETO_EDITAVEL/entrada/
+PROJETO_EDITAVEL/work/
+PROJETO_EDITAVEL/saida/*.mp4
+PROJETO_EDITAVEL/assets/audio/
+PROJETO_EDITAVEL/overlay/slots/
+PROJETO_EDITAVEL/substituir/*
+!PROJETO_EDITAVEL/substituir/.gitkeep
+__pycache__/

@@ -1,0 +1,163 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Padrao,Montserrat ExtraBold,64,&H00FFFFFF,&H00FFFFFF,&H99000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,2,2,100,140,400,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.57,Padrao,,0,0,0,,Todo mundo quer
+Dialogue: 0,0:00:00.59,0:00:01.15,Padrao,,0,0,0,,um {\c&HFE8F00&}VÍDEO{\c&HFFFFFF&} {\c&HFE8F00&}VIRAL,{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.17,0:00:02.54,Padrao,,0,0,0,,mas quase ninguém pensa
+Dialogue: 0,0:00:02.95,0:00:03.87,Padrao,,0,0,0,,no que acontece
+Dialogue: 0,0:00:03.89,0:00:05.49,Padrao,,0,0,0,,quando 500 pessoas
+Dialogue: 0,0:00:05.51,0:00:06.37,Padrao,,0,0,0,,começam a pedir
+Dialogue: 0,0:00:06.39,0:00:07.13,Padrao,,0,0,0,,o link todas
+Dialogue: 0,0:00:07.15,0:00:07.99,Padrao,,0,0,0,,ao mesmo tempo.
+Dialogue: 0,0:00:08.01,0:00:08.37,Padrao,,0,0,0,,E é aqui
+Dialogue: 0,0:00:08.39,0:00:09.15,Padrao,,0,0,0,,que muita gente
+Dialogue: 0,0:00:09.17,0:00:10.49,Padrao,,0,0,0,,perde oportunidade
+Dialogue: 0,0:00:10.51,0:00:11.07,Padrao,,0,0,0,,no {\c&HFE8F00&}INSTAGRAM.{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.09,0:00:12.05,Padrao,,0,0,0,,Pensa comigo, você
+Dialogue: 0,0:00:12.07,0:00:13.59,Padrao,,0,0,0,,grava um conteúdo incrível,
+Dialogue: 0,0:00:13.61,0:00:14.49,Padrao,,0,0,0,,ele começa a alcançar
+Dialogue: 0,0:00:14.51,0:00:15.57,Padrao,,0,0,0,,milhares de pessoas
+Dialogue: 0,0:00:15.59,0:00:16.47,Padrao,,0,0,0,,e os {\c&HFE8F00&}COMENTÁRIOS{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.49,0:00:17.81,Padrao,,0,0,0,,não param.
+Dialogue: 0,0:00:17.83,0:00:18.65,Padrao,,0,0,0,,Me manda o link,
+Dialogue: 0,0:00:18.67,0:00:19.83,Padrao,,0,0,0,,eu quero, onde
+Dialogue: 0,0:00:19.85,0:00:20.57,Padrao,,0,0,0,,eu encontro?
+Dialogue: 0,0:00:20.59,0:00:21.63,Padrao,,0,0,0,,Agora imagina ter
+Dialogue: 0,0:00:21.65,0:00:22.57,Padrao,,0,0,0,,que abrir o {\c&HFE8F00&}DIRECT{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.59,0:00:23.39,Padrao,,0,0,0,,e responder
+Dialogue: 0,0:00:23.41,0:00:24.29,Padrao,,0,0,0,,uma pessoa
+Dialogue: 0,0:00:24.31,0:00:25.05,Padrao,,0,0,0,,de cada vez.
+Dialogue: 0,0:00:25.07,0:00:26.95,Padrao,,0,0,0,,Copiar, colar, enviar
+Dialogue: 0,0:00:26.97,0:00:28.01,Padrao,,0,0,0,,e repetir isso
+Dialogue: 0,0:00:28.03,0:00:29.37,Padrao,,0,0,0,,centenas de vezes.
+Dialogue: 0,0:00:29.39,0:00:30.27,Padrao,,0,0,0,,E quando você
+Dialogue: 0,0:00:30.29,0:00:31.75,Padrao,,0,0,0,,demora pra responder,
+Dialogue: 0,0:00:31.77,0:00:32.25,Padrao,,0,0,0,,tem gente
+Dialogue: 0,0:00:32.27,0:00:33.35,Padrao,,0,0,0,,que simplesmente perde
+Dialogue: 0,0:00:33.37,0:00:34.15,Padrao,,0,0,0,,o interesse.
+Dialogue: 0,0:00:34.17,0:00:35.11,Padrao,,0,0,0,,Mas e se
+Dialogue: 0,0:00:35.13,0:00:35.99,Padrao,,0,0,0,,eu te contar
+Dialogue: 0,0:00:36.01,0:00:37.59,Padrao,,0,0,0,,que dá pra transformar
+Dialogue: 0,0:00:37.61,0:00:38.09,Padrao,,0,0,0,,esses {\c&HFE8F00&}COMENTÁRIOS{\c&HFFFFFF&}
+Dialogue: 0,0:00:38.11,0:00:40.09,Padrao,,0,0,0,,em mensagens {\c&HFE8F00&}AUTOMÁTICAS{\c&HFFFFFF&}
+Dialogue: 0,0:00:40.11,0:00:40.97,Padrao,,0,0,0,,no {\c&HFE8F00&}DIRECT?{\c&HFFFFFF&}
+Dialogue: 0,0:00:40.99,0:00:41.77,Padrao,,0,0,0,,Sem precisar ficar
+Dialogue: 0,0:00:41.79,0:00:42.45,Padrao,,0,0,0,,o dia inteiro
+Dialogue: 0,0:00:42.47,0:00:43.23,Padrao,,0,0,0,,no celular.
+Dialogue: 0,0:00:43.25,0:00:43.43,Padrao,,0,0,0,,E eu tô
+Dialogue: 0,0:00:43.45,0:00:44.89,Padrao,,0,0,0,,falando de uma {\c&HFE8F00&}AUTOMAÇÃO{\c&HFFFFFF&}
+Dialogue: 0,0:00:44.91,0:00:45.37,Padrao,,0,0,0,,de {\c&HFE8F00&}COMENTÁRIOS{\c&HFFFFFF&}
+Dialogue: 0,0:00:45.39,0:00:46.41,Padrao,,0,0,0,,no {\c&HFE8F00&}INSTAGRAM.{\c&HFFFFFF&}
+Dialogue: 0,0:00:46.43,0:00:46.63,Padrao,,0,0,0,,E eu vou
+Dialogue: 0,0:00:46.65,0:00:47.31,Padrao,,0,0,0,,te mostrar como
+Dialogue: 0,0:00:47.33,0:00:47.83,Padrao,,0,0,0,,eu configurei
+Dialogue: 0,0:00:47.85,0:00:48.31,Padrao,,0,0,0,,a minha usando
+Dialogue: 0,0:00:48.33,0:00:49.15,Padrao,,0,0,0,,a {\c&HFE8F00&}NEXTAGS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:49.17,0:00:49.61,Padrao,,0,0,0,,E olha como
+Dialogue: 0,0:00:49.63,0:00:50.61,Padrao,,0,0,0,,é simples.
+Dialogue: 0,0:00:50.63,0:00:51.41,Padrao,,0,0,0,,Primeiro, eu conectei
+Dialogue: 0,0:00:51.43,0:00:52.63,Padrao,,0,0,0,,meu {\c&HFE8F00&}INSTAGRAM{\c&HFFFFFF&} à plataforma.
+Dialogue: 0,0:00:52.65,0:00:54.27,Padrao,,0,0,0,,Depois, fui em ferramentas,
+Dialogue: 0,0:00:54.29,0:00:55.35,Padrao,,0,0,0,,entrei em {\c&HFE8F00&}AUTOMAÇÕES{\c&HFFFFFF&}
+Dialogue: 0,0:00:55.37,0:00:56.51,Padrao,,0,0,0,,de {\c&HFE8F00&}COMENTÁRIOS{\c&HFFFFFF&} no {\c&HFE8F00&}INSTAGRAM{\c&HFFFFFF&}
+Dialogue: 0,0:00:56.53,0:00:57.19,Padrao,,0,0,0,,e criei
+Dialogue: 0,0:00:57.21,0:00:58.39,Padrao,,0,0,0,,uma nova {\c&HFE8F00&}AUTOMAÇÃO.{\c&HFFFFFF&}
+Dialogue: 0,0:00:58.41,0:00:59.63,Padrao,,0,0,0,,Escolhi a publicação,
+Dialogue: 0,0:00:59.65,0:01:00.68,Padrao,,0,0,0,,defini uma palavra-chave,
+Dialogue: 0,0:01:01.11,0:01:02.21,Padrao,,0,0,0,,escrevi a mensagem
+Dialogue: 0,0:01:02.23,0:01:03.19,Padrao,,0,0,0,,que a pessoa vai receber
+Dialogue: 0,0:01:03.21,0:01:03.99,Padrao,,0,0,0,,no {\c&HFE8F00&}DIRECT,{\c&HFFFFFF&}
+Dialogue: 0,0:01:04.01,0:01:04.87,Padrao,,0,0,0,,adicionei meu link
+Dialogue: 0,0:01:04.89,0:01:05.79,Padrao,,0,0,0,,e ativei.
+Dialogue: 0,0:01:05.81,0:01:06.43,Padrao,,0,0,0,,Pronto!
+Dialogue: 0,0:01:06.45,0:01:07.13,Padrao,,0,0,0,,Agora vem a parte
+Dialogue: 0,0:01:07.15,0:01:07.95,Padrao,,0,0,0,,que eu mais gostei.
+Dialogue: 0,0:01:07.97,0:01:08.85,Padrao,,0,0,0,,Entrei por outra
+Dialogue: 0,0:01:08.87,0:01:09.85,Padrao,,0,0,0,,conta minha e
+Dialogue: 0,0:01:09.87,0:01:10.37,Padrao,,0,0,0,,comentei a
+Dialogue: 0,0:01:10.39,0:01:11.62,Padrao,,0,0,0,,palavra {\c&HFE8F00&}AUTOMATIZAR.{\c&HFFFFFF&}
+Dialogue: 0,0:01:12.23,0:01:13.45,Padrao,,0,0,0,,Olha isso!
+Dialogue: 0,0:01:13.47,0:01:14.91,Padrao,,0,0,0,,A {\c&HFE8F00&}NEXTAGS{\c&HFFFFFF&} respondeu
+Dialogue: 0,0:01:14.93,0:01:15.75,Padrao,,0,0,0,,o meu comentário
+Dialogue: 0,0:01:15.77,0:01:17.36,Padrao,,0,0,0,,e enviou {\c&HFE8F00&}AUTOMATICAMENTE{\c&HFFFFFF&}
+Dialogue: 0,0:01:18.07,0:01:19.65,Padrao,,0,0,0,,uma mensagem no {\c&HFE8F00&}DIRECT{\c&HFFFFFF&}
+Dialogue: 0,0:01:19.67,0:01:20.33,Padrao,,0,0,0,,com o
+Dialogue: 0,0:01:20.35,0:01:20.91,Padrao,,0,0,0,,link que
+Dialogue: 0,0:01:20.93,0:01:21.47,Padrao,,0,0,0,,eu configurei.
+Dialogue: 0,0:01:21.49,0:01:22.17,Padrao,,0,0,0,,Eu não precisei
+Dialogue: 0,0:01:22.19,0:01:23.70,Padrao,,0,0,0,,abrir nenhuma conversa
+Dialogue: 0,0:01:24.35,0:01:24.97,Padrao,,0,0,0,,pra enviar
+Dialogue: 0,0:01:24.99,0:01:26.27,Padrao,,0,0,0,,aquilo manualmente.
+Dialogue: 0,0:01:26.29,0:01:26.75,Padrao,,0,0,0,,E sabe o que é
+Dialogue: 0,0:01:26.77,0:01:27.65,Padrao,,0,0,0,,mais interessante?
+Dialogue: 0,0:01:27.67,0:01:28.83,Padrao,,0,0,0,,Isso não serve
+Dialogue: 0,0:01:28.85,0:01:29.37,Padrao,,0,0,0,,só para mandar
+Dialogue: 0,0:01:29.39,0:01:30.51,Padrao,,0,0,0,,link de produto.
+Dialogue: 0,0:01:30.53,0:01:31.83,Padrao,,0,0,0,,Se você é creator,
+Dialogue: 0,0:01:31.85,0:01:32.57,Padrao,,0,0,0,,pode entregar
+Dialogue: 0,0:01:32.59,0:01:33.49,Padrao,,0,0,0,,o seu portfólio.
+Dialogue: 0,0:01:33.51,0:01:34.83,Padrao,,0,0,0,,Se vende um curso,
+Dialogue: 0,0:01:34.85,0:01:35.57,Padrao,,0,0,0,,pode enviar
+Dialogue: 0,0:01:35.59,0:01:36.79,Padrao,,0,0,0,,uma aula gratuita.
+Dialogue: 0,0:01:36.81,0:01:38.11,Padrao,,0,0,0,,Se tem uma loja,
+Dialogue: 0,0:01:38.13,0:01:39.63,Padrao,,0,0,0,,pode compartilhar um cupom.
+Dialogue: 0,0:01:39.65,0:01:41.21,Padrao,,0,0,0,,E se presta serviços,
+Dialogue: 0,0:01:41.23,0:01:43.15,Padrao,,0,0,0,,pode direcionar as pessoas
+Dialogue: 0,0:01:43.17,0:01:43.97,Padrao,,0,0,0,,para conhecer
+Dialogue: 0,0:01:43.99,0:01:44.85,Padrao,,0,0,0,,sua oferta.
+Dialogue: 0,0:01:44.87,0:01:46.05,Padrao,,0,0,0,,Percebe a diferença?
+Dialogue: 0,0:01:46.07,0:01:47.19,Padrao,,0,0,0,,Você continua criando
+Dialogue: 0,0:01:47.21,0:01:48.59,Padrao,,0,0,0,,conteúdos que despertam
+Dialogue: 0,0:01:48.61,0:01:49.33,Padrao,,0,0,0,,o interesse,
+Dialogue: 0,0:01:49.35,0:01:50.37,Padrao,,0,0,0,,mas não precisa
+Dialogue: 0,0:01:50.39,0:01:51.25,Padrao,,0,0,0,,depender de estar
+Dialogue: 0,0:01:51.27,0:01:52.35,Padrao,,0,0,0,,online para dar
+Dialogue: 0,0:01:52.37,0:01:53.25,Padrao,,0,0,0,,o primeiro retorno
+Dialogue: 0,0:01:53.27,0:01:54.31,Padrao,,0,0,0,,a cada pessoa.
+Dialogue: 0,0:01:54.33,0:01:55.25,Padrao,,0,0,0,,Porque uma coisa
+Dialogue: 0,0:01:55.27,0:01:56.01,Padrao,,0,0,0,,é conseguir atenção
+Dialogue: 0,0:01:56.03,0:01:56.95,Padrao,,0,0,0,,no {\c&HFE8F00&}INSTAGRAM.{\c&HFFFFFF&}
+Dialogue: 0,0:01:56.97,0:01:57.65,Padrao,,0,0,0,,Outra é saber
+Dialogue: 0,0:01:57.67,0:01:59.23,Padrao,,0,0,0,,aproveitar essa atenção
+Dialogue: 0,0:01:59.25,0:02:00.85,Padrao,,0,0,0,,de maneira estratégica.
+Dialogue: 0,0:02:00.87,0:02:01.43,Padrao,,0,0,0,,E agora eu quero
+Dialogue: 0,0:02:01.45,0:02:02.57,Padrao,,0,0,0,,que você experimente isso
+Dialogue: 0,0:02:02.59,0:02:03.97,Padrao,,0,0,0,,em vez de só assistir.
+Dialogue: 0,0:02:03.99,0:02:04.57,Padrao,,0,0,0,,Eu configurei
+Dialogue: 0,0:02:04.59,0:02:05.41,Padrao,,0,0,0,,uma {\c&HFE8F00&}AUTOMAÇÃO{\c&HFFFFFF&} justamente
+Dialogue: 0,0:02:05.43,0:02:06.49,Padrao,,0,0,0,,nesse vídeo.
+Dialogue: 0,0:02:06.51,0:02:08.03,Padrao,,0,0,0,,Comenta {\c&HFE8F00&}AUTOMATIZAR{\c&HFFFFFF&} aqui
+Dialogue: 0,0:02:08.05,0:02:08.93,Padrao,,0,0,0,,embaixo e depois
+Dialogue: 0,0:02:08.95,0:02:09.99,Padrao,,0,0,0,,abre o seu {\c&HFE8F00&}DIRECT.{\c&HFFFFFF&}
+Dialogue: 0,0:02:10.01,0:02:10.75,Padrao,,0,0,0,,Você vai receber
+Dialogue: 0,0:02:10.77,0:02:12.69,Padrao,,0,0,0,,{\c&HFE8F00&}AUTOMATICAMENTE{\c&HFFFFFF&} meu link
+Dialogue: 0,0:02:12.71,0:02:13.19,Padrao,,0,0,0,,de acesso
+Dialogue: 0,0:02:13.21,0:02:13.97,Padrao,,0,0,0,,à {\c&HFE8F00&}NEXTAGS,{\c&HFFFFFF&}
+Dialogue: 0,0:02:13.99,0:02:14.49,Padrao,,0,0,0,,a ferramenta
+Dialogue: 0,0:02:14.51,0:02:14.99,Padrao,,0,0,0,,que eu acabei
+Dialogue: 0,0:02:15.01,0:02:15.79,Padrao,,0,0,0,,de te mostrar.
+Dialogue: 0,0:02:15.81,0:02:16.29,Padrao,,0,0,0,,Aí você pode
+Dialogue: 0,0:02:16.31,0:02:17.35,Padrao,,0,0,0,,conhecer a plataforma
+Dialogue: 0,0:02:17.37,0:02:18.05,Padrao,,0,0,0,,e criar
+Dialogue: 0,0:02:18.07,0:02:19.47,Padrao,,0,0,0,,a sua própria {\c&HFE8F00&}AUTOMAÇÃO{\c&HFFFFFF&}
+Dialogue: 0,0:02:19.49,0:02:20.71,Padrao,,0,0,0,,de {\c&HFE8F00&}COMENTÁRIOS{\c&HFFFFFF&} no {\c&HFE8F00&}INSTAGRAM.{\c&HFFFFFF&}
+Dialogue: 0,0:02:20.73,0:02:21.41,Padrao,,0,0,0,,E pensa comigo,
+Dialogue: 0,0:02:21.43,0:02:22.45,Padrao,,0,0,0,,se o seu próximo
+Dialogue: 0,0:02:22.47,0:02:23.53,Padrao,,0,0,0,,vídeo viralizar,
+Dialogue: 0,0:02:23.55,0:02:24.37,Padrao,,0,0,0,,você prefere passar
+Dialogue: 0,0:02:24.39,0:02:25.79,Padrao,,0,0,0,,horas enviando link
+Dialogue: 0,0:02:25.81,0:02:26.77,Padrao,,0,0,0,,e respondendo {\c&HFE8F00&}DM{\c&HFFFFFF&}
+Dialogue: 0,0:02:26.79,0:02:27.75,Padrao,,0,0,0,,ou já ter
+Dialogue: 0,0:02:27.77,0:02:28.99,Padrao,,0,0,0,,tudo isso funcionando
+Dialogue: 0,0:02:29.01,0:02:29.55,Padrao,,0,0,0,,e trabalhando
+Dialogue: 0,0:02:29.57,0:02:30.24,Padrao,,0,0,0,,por você?

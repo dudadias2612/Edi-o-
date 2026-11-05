@@ -1,0 +1,44 @@
+{
+ "video": {
+  "codec_name": "h264",
+  "profile": "High",
+  "width": 1080,
+  "height": 1920,
+  "pix_fmt": "yuv420p",
+  "r_frame_rate": "30/1",
+  "color_space": "bt709",
+  "color_transfer": "bt709",
+  "color_primaries": "bt709",
+  "color_range": "tv",
+  "nb_frames": "4569",
+  "bit_rate": "5768015"
+ },
+ "audio": {
+  "codec_name": "aac",
+  "sample_rate": "48000",
+  "channels": 2,
+  "bit_rate": "260299"
+ },
+ "formato": {
+  "duracao_s": 152.3,
+  "tamanho_MB": 114.9,
+  "faststart": true
+ },
+ "erros_decodificacao": "nenhum",
+ "loudness": {
+  "integrado_LUFS": -14.0,
+  "LRA": 1.8,
+  "true_peak_dBFS": -1.6
+ },
+ "telas_pretas": "nenhuma",
+ "trechos_congelados_>0.8s": "nenhum",
+ "clipping": {
+  "amostras_>=0.999": 0,
+  "pico_amostra_dBFS": -1.57
+ },
+ "preservacao_0_29s": {
+  "PSNR_medio_dB": 42.8,
+  "PSNR_minimo_dB": 39.4,
+  "obs": "faixa y=250..1000 (títulos/mockups já editados), fora do marcador da prévia e das legendas"
+ }
+}

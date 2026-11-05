@@ -1,0 +1,11 @@
+{
+  "_leia": "Para trocar um placeholder pela gravação real: coloque o arquivo em PROJETO_EDITAVEL/substituir/, preencha 'src' abaixo e rode ./build.sh slots. Duração/tempo do vídeo NÃO muda: a gravação é ajustada à janela exata.",
+  "fps": 30,
+  "slots": [
+    {"id": "P1",  "nome": "Conexão do Instagram", "inicio_quadro": 1515, "fim_quadro": 1578, "fala": "Primeiro, eu conectei meu Instagram à plataforma.", "moldura": "celular", "tela_px": [474, 984], "src": null, "ajuste": "retime"},
+    {"id": "P2",  "nome": "Criação da automação (Ferramentas > Automações de Comentários > Criar)", "inicio_quadro": 1578, "fim_quadro": 1755, "fala": "Depois, fui em Ferramentas, entrei em Automações de Comentários no Instagram e criei uma nova automação.", "moldura": "navegador", "tela_px": [980, 492], "src": null, "ajuste": "retime"},
+    {"id": "P3",  "nome": "Palavra-chave, mensagem, link e ativação", "inicio_quadro": 1755, "fim_quadro": 1974, "fala": "Escolhi a publicação, defini uma palavra-chave, escrevi a mensagem que a pessoa vai receber no Direct, adicionei meu link e ativei.", "moldura": "navegador", "tela_px": [980, 492], "src": null, "ajuste": "retime"},
+    {"id": "P4A", "nome": "Teste: comentário AUTOMATIZAR e resposta no comentário (celular da esquerda)", "inicio_quadro": 2040, "fim_quadro": 2447, "fala": "Entrei por outra conta minha e comentei a palavra automatizar. Olha isso! A Nextags respondeu o meu comentário…", "moldura": "celular", "tela_px": [394, 834], "src": null, "ajuste": "retime"},
+    {"id": "P4B", "nome": "Teste: Direct recebido com o link (celular da direita)", "inicio_quadro": 2040, "fim_quadro": 2447, "fala": "…e enviou automaticamente uma mensagem no Direct com o link que eu configurei.", "moldura": "celular", "tela_px": [394, 834], "src": null, "ajuste": "retime"}
+  ]
+}
